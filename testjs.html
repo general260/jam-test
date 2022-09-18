@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Selector</title>
+</head>
+<body>
+
+    <!-- Declared a variable and wrote statements to print different results when selected -->
+    <script>
+        let result = ""
+        
+        var chooselanguage = (abbr) => {
+            if (abbr == "en") {
+                result = "English"
+        
+            }   else  if  (abbr == "fr") {
+                result = "French"
+            }
+            return result
+        }
+        
+        console.log(chooselanguage("en"))
+    </script>
+    
+</body>
+</html>
